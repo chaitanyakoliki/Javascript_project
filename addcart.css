@@ -1,0 +1,98 @@
+
+.btn2{
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 60px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    border: #ff523b;
+    cursor: pointer;
+    /* border:2px solid black; */
+}
+
+.btn:hover {
+    background: #eb0505;
+}
+.cart-page {
+    margin: 80px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    /*all border in one border*/
+}
+
+.cartinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: #ff523b;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 45px;
+    height: 30px;
+    padding: 5px;
+}
+
+td .remove-btn {
+    color: #ff523b;
+    font-size: 12px;
+    cursor: pointer;
+    transition: color 250ms ease-in-out;
+}
+
+td .remove-btn:hover {
+    color: #b3220f;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    /* margin-left: 10px; */
+    margin: 0px 10px 0px 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+h4{
+    color:#333 ;
+}
+th{
+    color: #333;
+    
+}
+
+
+

@@ -1,0 +1,29 @@
+
+        
+#order{
+  position: relative;
+  animation-name: order;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes order{
+  0%{left: -1000px;}
+  100%{left: 0;}
+}
+
+#rotate{
+  -webkit-animation:spin 1s linear ;
+    -moz-animation:spin 1s linear ;
+    animation:spin 1s linear ;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+#Checkout{
+    background-color: azure;
+}
+h1,h2,h6{
+    color: black;
+}

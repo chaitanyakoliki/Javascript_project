@@ -1,0 +1,49 @@
+/* #page-header .about-header{
+    background-image:url("images/banner.png");
+  
+
+}  */
+ h2 {
+    
+    color: #080808;
+}
+p{
+    color: #201f1f;
+} 
+abbr{
+    color: #383333;
+}
+/* div{
+    color: black;
+    
+} */
+#about-head {
+    display: flex;
+   
+}
+#about-head img{
+    width: 40%;
+    height: auto;
+    margin-top: 30px;
+}
+#about-head div{
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+#about-app{
+    text-align: center; 
+    color: black;
+    margin-top: 30px;
+}
+#about-app .video{
+    width:60%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+    margin-top: 30px;
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
